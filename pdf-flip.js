@@ -19,6 +19,7 @@
         startTime
  
     function handleswipe(isrightswipe){
+        console.log("swipeAttempt");
         if (isrightswipe)
             $('.directions .prev-button').click();
 //             touchsurface.innerHTML = 'Congrats, you\'ve made a <span style="color:red">right swipe!</span>'
@@ -28,6 +29,7 @@
     }
  
     touchsurface.addEventListener('touchstart', function(e){
+        console.log("touch");
         touchsurface.innerHTML = ''
         var touchobj = e.changedTouches[0]
         dist = 0
