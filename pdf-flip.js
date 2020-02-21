@@ -9,7 +9,7 @@
     init: function () {
         
 //         add swipe controls
-            var touchsurface = document.getElementById('touchsurface'),
+            var touchsurface = document.getElementById('magazineContainer'),
         startX,
         startY,
         dist,
